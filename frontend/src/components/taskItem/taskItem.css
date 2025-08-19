@@ -1,0 +1,49 @@
+.task-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    transition: background 0.3s ease;
+}
+
+.task-item:hover {
+    background: #f3f0ff;
+    
+}
+
+.task-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+}
+
+.task-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.completed {
+    color: #6d33d2;
+    text-decoration: line-through;
+}
+
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.btn-done,
+.btn-delete,
+.btn-update {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+.btn-done:hover,
+.btn-delete:hover,
+.btn-edit:hover  {
+    transform: scale(1.2);
+}
